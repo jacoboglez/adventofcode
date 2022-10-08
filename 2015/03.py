@@ -55,6 +55,6 @@ def test():
 
 if __name__ == "__main__":
     test()
-    inputstr = open('2015/inputs/03.txt', 'r').read().strip()
+    inputstr = open('2015/inputs/2015_03.txt', 'r').read().strip()
     print(f'Part 1: {part1(inputstr)}')
     # print(f'Part 2: {part2(inputstr)}')

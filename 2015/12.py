@@ -65,6 +65,6 @@ def test():
 
 if __name__ == "__main__":
     test() 
-    inputlst = open('2015/inputs/12.txt', 'r').read().strip()
+    inputlst = open('2015/inputs/2015_12.txt', 'r').read().strip()
     print(f'Part 1: {part1(inputlst)}')
-    print(f'Part 2: {part2("2015/inputs/12.txt")}')
+    print(f'Part 2: {part2("2015/inputs/2015_12.txt")}')

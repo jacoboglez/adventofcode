@@ -30,6 +30,6 @@ def part2(inputstr, N):
 
 
 if __name__ == "__main__":
-    inputstr = open('2015/inputs/10.txt', 'r').read().strip().split('\n')[0]
+    inputstr = open('2015/inputs/2015_10.txt', 'r').read().strip().split('\n')[0]
     print(f'Part 1: {len(part1(inputstr, 40))}')
     print(f'Part 2: {len(part2(inputstr, 50))}')

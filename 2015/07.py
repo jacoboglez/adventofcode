@@ -79,7 +79,7 @@ def test():
 
 if __name__ == "__main__":
     test()
-    inputlst = open('2015/inputs/07.txt', 'r').read().strip().split('\n')
+    inputlst = open('2015/inputs/2015_07.txt', 'r').read().strip().split('\n')
     valA = part12(inputlst)["a"]
     print(f'Part 1: {valA}')
     print(f'Part 2: {part12(inputlst, valA)["a"]}')

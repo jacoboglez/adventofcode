@@ -14,5 +14,5 @@ def part2(inputlst):
 
 
 if __name__ == "__main__":
-    print(f"Part 1: {part1( open('2015/inputs/08.txt') )}")
-    print(f"Part 2: {part2( open('2015/inputs/08.txt') )}")
+    print(f"Part 1: {part1( open('2015/inputs/2015_08.txt') )}")
+    print(f"Part 2: {part2( open('2015/inputs/2015_08.txt') )}")

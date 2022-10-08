@@ -76,7 +76,7 @@ def test():
 
 if __name__ == "__main__":
     test()
-    inputlst = open('2015/inputs/13.txt', 'r').read().strip().split('\n')
+    inputlst = open('2015/inputs/2015_13.txt', 'r').read().strip().split('\n')
     relations = parseRelations(inputlst)
     print(f'Part 1: {part1(relations)}')
     print(f'Part 1: {part2(relations)}')

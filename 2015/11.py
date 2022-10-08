@@ -94,7 +94,7 @@ def test():
 
 if __name__ == "__main__":
     # test() # Too slow
-    inputlst = open('2015/inputs/11.txt', 'r').read().strip()
+    inputlst = open('2015/inputs/2015_11.txt', 'r').read().strip()
     pass1 = part1(inputlst)
     print(f'Part 1: {pass1}')
     print(f'Part 2: {part1(incrementLetter(pass1))}')

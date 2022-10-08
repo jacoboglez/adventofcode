@@ -55,7 +55,7 @@ def part2(my_aunts):
 
 
 if __name__ == "__main__":
-    inputlst = open('2015/inputs/16.txt', 'r').read().strip().split('\n')
+    inputlst = open('2015/inputs/2015_16.txt', 'r').read().strip().split('\n')
     myAunts = parseAunts(inputlst)
     print(f'Part 1: {part1(myAunts)}')
     print(f'Part 1: {part2(myAunts)}')
