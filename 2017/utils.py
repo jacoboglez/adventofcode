@@ -15,8 +15,8 @@ dprint = pp.pprint
 
 def Input(day, year, line_parser=str.strip, test=False):
     "For this day's input file, return a tuple of each line parsed by `line_parser`."
-    return mapt(line_parser, open(f'./inputs/{year}_{day:02d}.txt')) if not test \
-    else mapt(line_parser, open(f'./inputs/{year}_{day:02d}_test{test}.txt'))
+    return mapt(line_parser, open(f'{year}/inputs/{year}_{day:02d}.txt')) if not test \
+    else mapt(line_parser, open(f'{year}/inputs/{year}_{day:02d}_test{test}.txt'))
 
 
 def integers(text): 
