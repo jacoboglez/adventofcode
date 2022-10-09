@@ -123,3 +123,19 @@ class intCodeComputer:
     def flushOutputs(self):
         self.outputArray.clear()
 
+
+    def outputASCII(self):
+        ascii_out = self.outputArray
+        line = ''.join( [chr(a) for a in ascii_out] )
+        print(line)
+
+
+    def interactiveRun(self):
+        while not self.finished:
+            self.compute()
+            self.outputASCII()
+            input_command = input()
+            self.inputArray = [ord(a) for a in input_command+'\n']
+
+        print()
+        print('PROGRAM FINISHED')

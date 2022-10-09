@@ -1,0 +1,27 @@
+# Hull breach
+north # Kitchen (sand)
+take sand
+north # Hallway (escape pod, DONT TAKE)
+north # Navigation (astrolabe)
+take astrolabe
+south # Hallway
+south # Kitchen
+west # Arcade
+west # Storage (mutex)
+take mutex
+east # Arcade
+east # Kitchen
+south # Hull Breach
+west # Holodeck
+north # Observatory (shell)
+take shell
+south # Holodeck
+south # Sick Bay (giant electromagnet, DONT TAKE)
+west # Hot chocolate (ornament)
+take ornament
+west # Gift Wrap
+south # Security Checkpoint
+drop mutex
+inv
+south 
+# Get password
