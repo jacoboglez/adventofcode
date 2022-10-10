@@ -28,6 +28,17 @@ def mapt(fn, *args):
     return tuple(map(fn, *args))
 
 
+def map2dict(input):
+    mapp = dict()
+    features = defaultdict(list)
+    for r, row in enumerate(input):
+        for c, element in enumerate(row):
+            mapp[(c,r)] = element # (c,r) because I want coordinates (x,y)
+            features[element].append((c,r))
+
+    return mapp, features 
+
+
 def test(DAY, parser, part1=lambda x:None, results_part_1=[], part2=lambda x:None, results_part_2=[]):
 
     if results_part_1 or results_part_2:
