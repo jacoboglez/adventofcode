@@ -1,0 +1,25 @@
+b = 107_900
+c = 124_900
+
+# F
+f = 1
+d = 2
+
+# E
+e = 2
+
+# G
+# if (d*e) == b: f=0
+e = e + 1
+
+# if e != b: goto G
+
+d = d + 1
+
+# if d != b: goto E
+
+# if f == 0: h = h + 1
+
+# if b == c: return h
+b = b + 17
+# goto F
